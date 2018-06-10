@@ -21,17 +21,9 @@ module.exports = {
     {
       rel: 'stylesheet',
       href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
-    },
-    {
-      rel: 'stylesheet',
-      href: '/css/css.css'
-    },
-    
+    }, 
     ],
     script: [
-      {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js',
-      },
       {
         src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js',
       },
