@@ -1,2 +1,45 @@
-div
-    p hello!
+.row
+    .container-fluid
+        Header
+        .container
+            .edit-block
+                p.edit-btn + Add Task
+                .edit-block-focus
+                    .title
+                        input.check(type="checkbox", name="check")
+                        p Type Something Here…
+                        .icon
+                            i.fa.fa-star(aria-hidden="true")
+                            i.fa.fa-pencil(aria-hidden="true")
+                    .content
+                        .deadline
+                            i.fa.fa-calendar(aria-hidden="true")
+                            .wapper
+                                p Deadline
+                                input(type="date" name="bday")
+                                input(type="time" name="usr_time")
+                        .file
+                            i.fa.fa-file-o(aria-hidden="true")
+                            .wapper
+                                p File
+                                span.plus +
+                        .commit
+                            i.fa.fa-commenting-o(aria-hidden="true")
+                            .wapper
+                                p Commit
+                                textarea(placeholder="Type your memo here…")
+                    .edit-button
+                        button.cancel 
+                            i.fa.fa-times(aria-hidden="true")
+                            span Cancel
+                        button.add
+                            i.fa.fa-plus(aria-hidden="true")
+                            span Add Task
+            .list-block
+                .title-block
+                    .title-text
+                    .start
+                    .edit
+                .date-block
+                    .deadline
+                    .file    

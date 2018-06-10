@@ -23,8 +23,15 @@ import AppLogo from "~/components/AppLogo.vue";
 export default {
   components: {
     AppLogo
-  }
+  },
+
+  head: () => ({
+    title: 'Mido的The-F2E挑戰 in Nuxt',
+  }),
+
 };
+
+
 </script>
 
 <style>
