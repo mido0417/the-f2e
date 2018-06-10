@@ -32,6 +32,7 @@ module.exports = {
   router: {
     linkExactActiveClass: 'is-active-trail',
     linkActiveClass: 'active',
+    base: '/'
   },
   sassResources: [
     '@/assets/scss/style.scss'
