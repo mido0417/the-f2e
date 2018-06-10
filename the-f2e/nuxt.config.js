@@ -32,7 +32,7 @@ module.exports = {
   router: {
     linkExactActiveClass: 'is-active-trail',
     linkActiveClass: 'active',
-    
+     base: '/the-f2e/'
   },
   sassResources: [
     '@/assets/scss/style.scss'
