@@ -9,7 +9,7 @@
         Nuxt.js project
       </h2>
       <div class="links">
-        <nuxt-link to="the-f2e/01-todolist" class="button--green" target="_blank">01.TodoList</nuxt-link>
+        <nuxt-link to="/todolist" class="button--green" target="_blank">01.TodoList</nuxt-link>
         <a href="https://github.com/mido0417/the-f2e/blob/gh-pages/index.html" target="_blank" class="button--grey">
         MyGitHub</a>
       </div>
