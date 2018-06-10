@@ -10,20 +10,21 @@
       </h2>
       <div class="links">
         <nuxt-link to="the-f2e/01-todolist" class="button--green" target="_blank">01.TodoList</nuxt-link>
-        <nuxt-link to="" target="_blank" class="button--grey">MyGitHub</nuxt-link>
+        <a href="https://github.com/mido0417/the-f2e/blob/gh-pages/index.html" target="_blank" class="button--grey">
+        MyGitHub</a>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import AppLogo from "~/components/AppLogo.vue";
 
 export default {
   components: {
     AppLogo
   }
-}
+};
 </script>
 
 <style>
@@ -36,7 +37,8 @@ export default {
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;
