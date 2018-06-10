@@ -9,14 +9,8 @@
         Nuxt.js project
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green">Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey">GitHub</a>
+        <nuxt-link to="/01-todolist" class="button--green" target="_blank">01.TodoList</nuxt-link>
+        <nuxt-link to="https://github.com/mido0417" target="_blank" class="button--grey">MyGitHub</nuxt-link>
       </div>
     </div>
   </section>
