@@ -10,7 +10,7 @@
       </h2>
       <div class="links">
         <nuxt-link to="the-f2e/01-todolist" class="button--green" target="_blank">01.TodoList</nuxt-link>
-        <nuxt-link to="https://github.com/mido0417" target="_blank" class="button--grey">MyGitHub</nuxt-link>
+        <nuxt-link to="" target="_blank" class="button--grey">MyGitHub</nuxt-link>
       </div>
     </div>
   </section>
