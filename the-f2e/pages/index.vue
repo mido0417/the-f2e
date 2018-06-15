@@ -8,10 +8,11 @@
       <h2 class="subtitle">
         Nuxt.js project
       </h2>
+      <a href="https://github.com/mido0417/" target="_blank" class="button--grey">
+        MyGitHub</a>
       <div class="links">
         <nuxt-link to="/todolist" class="button--green" target="_blank">01.TodoList</nuxt-link>
-        <a href="https://github.com/mido0417/" target="_blank" class="button--grey">
-        MyGitHub</a>
+        <nuxt-link to="/filter" class="button--green" target="_blank">02.Filter</nuxt-link>
       </div>
     </div>
   </section>
@@ -26,15 +27,12 @@ export default {
   },
 
   head: () => ({
-    title: 'Mido的The-F2E挑戰 in Nuxt',
-  }),
-
+    title: "Mido的The-F2E挑戰 in Nuxt"
+  })
 };
-
-
 </script>
 
-<style>
+<style lang="scss">
 .container {
   min-height: 100vh;
   display: flex;
@@ -42,7 +40,9 @@ export default {
   align-items: center;
   text-align: center;
 }
-
+a{
+  text-decoration: none;
+}
 .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
@@ -63,5 +63,8 @@ export default {
 
 .links {
   padding-top: 15px;
+  a{
+    margin: 10px;
+  }
 }
 </style>
